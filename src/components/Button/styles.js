@@ -8,6 +8,7 @@ const TalkButton = styled.button`
   border: none;
   font-family: ${fonts.primary};
   text-transform: capitalize;
+  font-weight: 800;
   font-size: 1rem;
   color: #fff;
   cursor: pointer;

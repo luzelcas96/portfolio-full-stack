@@ -1,4 +1,6 @@
 import ButtonTalk from "./components/Button/button";
+import LinkTo from "./components/LinkTo";
+
 
 function App() {
   return (
@@ -6,7 +8,11 @@ function App() {
       <div>
         <img src="assets/images/perfil.png" alt="Peerfil Luis Zelada "/>
       </div>
-      <ButtonTalk children="Let's talk"/>
+      {/* <ButtonTalk> Let's talk</ButtonTalk> */}
+      <div>
+      <LinkTo to="#" color="white">Home</LinkTo>
+
+      </div>
     </>
   );
 }
