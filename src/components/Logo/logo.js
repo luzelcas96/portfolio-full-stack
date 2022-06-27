@@ -1,15 +1,11 @@
-import styled from "@emotion/styled";
+import * as S from "./styles";
 
-const StyleLogo = styled.img`
-  width: 100px;
-  background-color: white;
-  border-radius: 50%;
-  border: 2px solid white;
-`
-
-function Logo() {
+function Logo({color= "white"}) {
   return (
-    <StyleLogo src= "./assets/images/logo.png" alt= "logo Luzelcas96"/>
+    <S.Wrapper>
+      <S.StyleLogo src= "./assets/images/logo.png" alt= "logo Luzelcas96"/>
+      <S.TextLogo color={color}>Lucho Zelada</S.TextLogo>
+    </S.Wrapper>
   )
 }
 

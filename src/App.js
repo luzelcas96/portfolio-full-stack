@@ -7,12 +7,12 @@ import Logo from "./components/Logo/logo";
 function App() {
   return (
     <>
-      {/* <img src="assets/images/perfil.png" alt="Peerfil Luis Zelada "/>
+    {/* <img src="assets/images/perfil.png" alt="Peerfil Luis Zelada "/>
 
      <ButtonTalk> Let's talk</ButtonTalk>
       <LinkTo to="#" color="white">Home</LinkTo>
-      <ButtonIcon icon= "instagram"/>
-      <Logo/> */}
+      <ButtonIcon icon= "instagram"/> */}
+      <Logo/> 
     </>
   );
 }
