@@ -16,4 +16,8 @@ const TextLogo = styled.h1`
   color: ${({color})=>color};
   font-family: 'Shadows Into Light', cursive;
 `
-export {Wrapper, StyleLogo, TextLogo};
+export {
+  Wrapper,
+  StyleLogo,
+  TextLogo
+};

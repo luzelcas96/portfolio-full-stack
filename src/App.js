@@ -1,7 +1,8 @@
 import ButtonTalk from "./components/Button/button";
-import ButtonIcon from "./components/BUttonIcon";
+import ButtonIcon from "./components/ButtonIcon";
 import LinkTo from "./components/LinkTo";
 import Logo from "./components/Logo/logo";
+import NavBar from "./components/NavBar";
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
      <ButtonTalk> Let's talk</ButtonTalk>
       <LinkTo to="#" color="white">Home</LinkTo>
-      <ButtonIcon icon= "instagram"/> */}
-      <Logo/> 
+      <ButtonIcon icon= "instagram"/> 
+      <Logo/> */}
+      <NavBar/>
     </>
   );
 }
