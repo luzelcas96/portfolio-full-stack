@@ -78,7 +78,7 @@ export const global = css`
     font-size: 1rem;
     line-height: 1.5rem;
     font-family: ${fonts.primary};
-    color: ${colors.gray[900]};
+    color: ${colors.black[900]};
     background-color: ${colors.background};
   }
 `;

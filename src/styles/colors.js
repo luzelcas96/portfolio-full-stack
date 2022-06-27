@@ -10,7 +10,9 @@ export const colors = {
   orange: {
     300: "#F98B5B"
   },
-
-  background: "#E5E5E5",
+  black: {
+    500: "#18171C"
+  },
+  background: "#18171C",
   white: "#FFFFFF",
 };
