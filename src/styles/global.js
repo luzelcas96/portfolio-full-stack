@@ -80,6 +80,6 @@ export const global = css`
     line-height: 1.5rem;
     font-family: ${fonts.primary};
     color: ${colors.black[900]};
-    background-color: ${colors.background};
+    background-color: ${colors.white};
   }
 `;
